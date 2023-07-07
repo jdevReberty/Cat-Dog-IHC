@@ -1,0 +1,18 @@
+@media (min-width: 1280px) {
+    .main-login {
+        padding-top: 7rem;
+    }
+    .main-cadastro {
+        padding-top: 4rem;
+    }
+}
+
+@media (max-width: 1279px) {
+    .main-login {
+        padding-top: 9rem;
+    }
+
+    .main-cadastro {
+        padding-top: 6rem;
+    }
+}
