@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="botoes">
+            <a href="./cadastro.html"><button class="botao" style="margin-right: 1rem;">Cadastre-se</button></a>
+            <a href="./login.html"><button class="botao" style="margin-right: 1rem;">Login</button></a>
+            <a href="./contato.html"><button class="botao">Contato</button></a>
+        </div>
+
+        <div class="flex elementos-busca">
+            <div>
+                <a href="./index.html"><img src="./imagens/image 7.png" class="logo" alt=""></a>
+            </div>
+
+            <input type="text" class="buscar-informacao" placeholder="Em que podemos lhe ajudar?"/>
+            <button class="botao botao-pesquisar">
+                <i data-feather="search" color="black"></i>
+            </button>
+            <div class="flex">
+                <button class="botao botao-shop" style="margin-right: 1rem;"><i data-feather="shopping-cart"></i></button>
+                <button class="botao botao-shop"><img src="./imagens/image 6.png" alt=""></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <form action="http://ip.ifrn.edu.br/sirab/send.php" method="post" class="flex formulario">
+            <section style="padding-left: 8rem;">
+                <header>
+                    <h3 class="titulo-formulario">Contato</h3>
+                </header>
+                <fieldset class="bloco-input flex">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                </fieldset>
+                <fieldset class="bloco-input flex">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome">
+                </fieldset>
+                <fieldset class="bloco-input flex">
+                    <label for="nome">Dúvida/Escrarecimento</label>
+                    <textarea name="Duvidas" id="Duvidas" cols="30" rows="10"></textarea>
+                </fieldset>
+                <fieldset class="bloco-input flex">
+                    <button class="botao" style="margin-left: 1rem;">Enviar</button>
+                </fieldset>
+            </section>
+        </form>
+    </main>
+
+    <footer class="fundo-laranja rodape" style="margin-top: 5rem;">
+        <div class="flex contato">
+            <h1 class="titulo-rodape">contatos</h1>
+            <p>(84) 99209-1400 </br> emily.p@escolar.ifrn.edu.br</p>
+        </div>
+        <div class="flex contato">
+            <h1 class="titulo-rodape">Redes Sociais</h1>
+            <a href="https://www.facebook.com"><img src="./imagens/facebook.png" alt="facebook"></a>
+            <a href="https://www.instagram.com"><img src="./imagens/instagram.png" alt="instagram"></a>
+        </div>  
+    </footer>
+    <div class="direitos">&copy; Emily Pereira da Silva</div>
+    
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+
+    <script>
+        feather.replace()
+    </script>
+</body>
+</html>
