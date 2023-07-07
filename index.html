@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="stylesheet" href="css/index.css">
+        <title>Document</title>
+    </head>
+    <body>
+        <header class="cabecalho mb-2">
+
+            <div class="d-lg-flex justify-content-center align-self-center align-items-center elementos-busca mt-2">
+                <div class="img-logo">
+                    <a href="./index.html"><img src="./imagens/logo.png" class="logo" alt=""></a>
+                </div>
+                <div class="search-conteudos">
+                    <input type="text" class="buscar-informacao py-2" placeholder="Em que podemos lhe ajudar?"/>
+                    <button class="botao botao-pesquisar">
+                        <i data-feather="search" color="black"></i>
+                    </button>
+                </div>
+                <div class="flex display-sm-none">
+                    <button class="botao botao-shop" style="margin-right: 1rem;"><i data-feather="shopping-cart"></i></button>
+                    <button class="botao botao-shop"><img src="./imagens/image 6.png" alt=""></button>
+                </div>
+
+                <!-- -------------------- Essa div só aparece no mobile -------------------- -->
+                <div class="menu-mobile d-lg-none">
+                    <div class="dropdown">
+                        <button class="btn btn-menu" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span class="material-symbols-outlined" id="menu-mobile">menu</span>
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item text-center d-flex" href="pages/login.html">
+                                <span class="material-symbols-outlined">person</span>
+                                <span class="ml-2" >Entrar / Cadastrar</span>
+                            </a>
+                            <a class="dropdown-item d-flex" href="#">
+                                <i data-feather="shopping-cart"></i>
+                                <span class="ml-2">Carrinho</span>
+                            </a>
+                            <a class="dropdown-item" href="#">
+                                <span class="botao-shop mx-0 px-0">
+                                    <img src="./imagens/image 6.png" alt="">
+                                </span>
+                                <span class="ml-1">Estrelas</span>
+                            </a>
+                        </div>
+                      </div>
+                </div>
+
+                <a class="col-2 display-sm-none" href="pages/login.html">
+                    <button class="d-flex btn btn-sm btn-warning ml-3 p-2 btn-login" style="margin-right: 1rem;">
+                        <span class="material-symbols-outlined">person</span>
+                        <span class="ml-2" >Entrar / Cadastrar</span>
+                    </button>
+                </a>
+            </div>
+
+            <aside class="d-flex col-12 justify-content-center align-items-center display-sm-none">
+                <div class="side-menu col-2 text-center pb-2">Gatos</div>
+                <div class="side-menu col-2 text-center pb-2">Cachorros</div>
+                <div class="side-menu col-2 text-center pb-2">Produtos</div>
+                <div class="side-menu col-2 text-center pb-2">Estrelas</div>
+                <div class="side-menu col-2 text-center pb-2">Contatos</div>
+            </aside>
+        </header>
+
+        <main class="bloco-principal">
+            <div class="fundo-laranja">
+                <div class="display-sm-none">
+                    <img src="./imagens/Adoção-de-Animais-750x442-removebg-preview.png" alt="">
+                </div>
+                <div class="bloco-informacao texto-principal">
+                    Cat&Dog é uma associação sem fins lucrativos de resgate e adoção responsável de animais 
+                    em situação de abandono. 
+                    
+                    Com a falta de verba, resolvemos criar esse site para pedir auxílio e vender alguns produtos, além de facilitar a adoção de nossos pets. 
+                    Todo valor dos produtos vendidos, é convertido para a manuteção e cuidado para nossas Estrelas.  
+                </div>
+            </div>
+
+            <!-- ----------------------------------------------------------------------- -->
+            <!--                            Bloco de Produtos                            -->
+            <!-- ----------------------------------------------------------------------- -->
+
+            <section class="section-produtos">
+                <header>
+                    <h3 class="ml-lg-4 title">Doações</h3>
+                </header>
+                <main class="cards-produtos">
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="./imagens/produto1.png" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Ração PROGATO 1,8kg</h5>
+                            <p class="card-text">Na compra de 2 pacotes de doação, você alimenta 4 Gatinhos por 1 semana.</p>
+                            <p class="card-text">Apenas R$ 18,65</p>
+                            <p class="card-text"><small class="text-muted">Necessitamos de 20 Doações para encher a barriguinha esse mês.</small></p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="./imagens/produto8.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Shampoo PetClean 5L</h5>
+                            <p class="card-text">Na compra de 1 kit de doação, você mantém nossos Bebês limpinhos e cheirosos por 1 semana.</p>
+                            <p class="card-text">Apenas R$ 20,99</p>
+                            <p class="card-text"><small class="text-muted">Necessitamos de 6 doações para higienizar nossas Estrelas esse mês.</small></p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="./imagens/produto6.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Sache Primogato</h5>
+                            <p class="card-text">Na compra de 5 doações, você pode manter bem nutridos 5 gatinhos por semana.</p>
+                            <p class="card-text">Apenas R$ 1,99</p>
+                            <p class="card-text"><small class="text-muted">Necessitamos de 45 Doações para complementar a dieta dos Gatinhos.</small></p>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="card-deck">
+                        <div class="card">
+                          <img class="card-img-top" src="./imagens/produto3.jpg" alt="Card image cap">
+                          <div class="card-body">
+                            <h5 class="card-title">Ração Canina Foster Premium - 5kg</h5>
+                            <p class="card-text">Na compra de 2 Doações, você alimenta 10 Doguinhos por 1 (uma) Semana</p>
+                            <p class="card-text"><small class="text-muted">Necessitamos de 16 Doações para preencher a barriga de nossos companheiros leais.</small></p>
+                          </div>
+                        </div>
+                    </div>
+                </main>
+            </section>
+
+            <!-- ----------------------------------------------------------------------- -->
+            <!--                             Bloco de Adoção                             -->
+            <!-- ----------------------------------------------------------------------- -->
+            <section class="bd-example mx-4 conteudos-animais mt-1">
+                <header class="mt-4 mb-2">
+                    <h2 class="title title-sm-adocao">Adote e encha a sua vida de luz</h2>
+                </header>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="./imagens/imagem1.jpg" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/imagem2.jpg" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="./imagens/imagem3.jpg" alt="Third slide">
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </section>
+        
+            <!-- <div class="flex elementos-busca segunda-busca form-group">
+                <input type="text" class="buscar-informacao form-control py-2" style="width: 70%;" placeholder="Já pensou em procurar por mais uma estrela para seu lar?"/>
+                <button class="btn btn-sm btn-warning" style="padding: .4rem;">
+                    <i data-feather="search" color="black"></i>
+                </button>
+            </div> -->
+        
+            <section class="bloco-estrelas" style="margin-top: 5rem;">
+                <header class="titulo mb-4">
+                    <h2 class="title">Estrelas que preencherão novos lares</h2>
+                </header>
+                <div class="flex">
+                    <img src="./imagens/adotado1.jpg" alt="">
+                    <img src="./imagens/adotado2.jpg" alt="">
+                    <img src="./imagens/adotado3.jpg" alt="">
+                    <img src="./imagens/adotado4.jpg" alt="">
+                    <img src="./imagens/adotado5.jpg" alt="">
+                    <img src="./imagens/adotado6.jpg" alt="">
+                </div>
+            </section>
+        </main>
+
+        <footer class="fundo-laranja rodape" style="margin-top: 5rem;">
+            <div class="flex contato">
+                <h1 class="titulo-rodape">Contatos</h1>
+                <div class="contato-em">
+                    <p>(84) 99209-1400 </br> emily.p@escolar.ifrn.edu.br</p>
+                    <p>(84) 98124-6389 </br> johnny.oliveira@escolar.ifrn.edu.br</p>
+                </div>
+            </div>
+            <div class="flex contato">
+                <h1 class="titulo-rodape">Redes Sociais</h1>
+                <a href="https://www.facebook.com"><img src="./imagens/facebook.png" alt="facebook"></a>
+                <a href="https://www.instagram.com"><img src="./imagens/instagram.png" alt="instagram"></a>
+            </div>  
+        </footer>
+        <div class="direitos">&copy; Emily Pereira da Silva | Johnny Reberty Alves Oliveira | Cat&Dog</div>
+        
+        
+        
+        
+        
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+        <script>
+            feather.replace()
+        </script>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <script src="./js/events.js"></script>
+    </body>
+</html>
